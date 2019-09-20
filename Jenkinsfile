@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 Javac HelloWorld.java
-				Java HelloWorld
+		Java HelloWorld
             }
         }
     }
